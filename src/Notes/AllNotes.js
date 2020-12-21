@@ -3,6 +3,8 @@ import { connect } from 'react-redux';
 import { removeNote } from '../Actions/index';
 
 class AllNotes extends React.Component {
+
+	
 	removeNote = (index) => {
 		this.props.removeNote(index);
 	};
